@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raiz</title>
+
+
+    <link rel="stylesheet" href="raiz.css">
+</head>
+
+<body onload="iniciar()">
+
+    <h1 class="titulo">Examen: Raiz de 2</h1>
+
+    <p class="instrucciones"> <b>Instrucciones: </b> Hacer un programa que obtiene dos decimales de la raíz cuadrada de
+        dos usando operaciones discretas</p>
+    <h2 class="subtitulo">Dimensiones</h2>
+
+    Area = <input class="input" type="number" value="0" id="area1" disabled> unidades <sup>2</sup> ≈ <input
+        class="input" type="number" value="0" id="area2" disabled>   unidades <sup>2</sup> <br>
+
+    lado = <input class="input" type="number" value="0" id="dimensiones" disabled>  unidades <br>
+
+    Raiz = <input class="input" type="number" value="0" id="raiz" disabled> / <input class="input" type="number"
+        value="100" id="denominador" disabled>   unidades
+
+    <h2 class="grafico">Gráfico</h2>
+
+    <div id="rule"></div>
+    <div id="plano"></div>
+
+    <script src="raiz.js"></script>
+
+</body>
+
+</html>
